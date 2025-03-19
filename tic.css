@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(20,18,184,1) 0%, rgba(0,212,255,1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.heading{
+    transform: translateY(-200%);
+}
+.game-mode{
+    display: flex;
+    flex-direction: column; /* Stack buttons vertically */
+    gap: 10px; /* Add spacing between buttons */
+}
+.two-player{
+    width: 250px;
+    height: 4rem;
+    border: none;
+    transition: background .3s ease-in-out,color 0.3s ease-in-out; 
+    cursor: pointer;
+    font-size: larger;
+    border-radius: 5px;
+    justify-content: center;
+    flex-direction: column;
+}
+.bot{
+    width: 250px;
+    height: 4rem;
+    border: none;
+    transition: background .3s ease-in-out,color 0.3s ease-in-out;
+    cursor: pointer;
+    font-size: larger;
+    border-radius: 5px;
+    justify-content: center;
+    flex-direction: column;
+}
+.two-player:hover{
+    background: rgba(117, 19, 97, 0.804);
+    color: aliceblue;
+}
+.bot:hover{
+    background: rgba(117, 19, 97, 0.804);
+    color: aliceblue;
+}
+
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    background: aliceblue;
+    display: none;
+}
+
+.box{
+    border: 2px solid #cccc69;
+    box-shadow: 0 0 0 2px #cccc69;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    
+}
+
+.status{
+    padding: 20px;
+    color: aliceblue;
+    font-size: larger;
+    font-weight: bolder;
+    display: none;
+}
+
+
+img{
+    width: 100px;
+    height: 100px;
+}
+.button1{
+    display: flex;
+    gap: 30px;
+}
+.back,#restart{
+    width:120px ;
+    height: 40px;
+    border-radius: 5px;
+    transition: background 0.3s ,color 0.3s ;
+    cursor: pointer;
+    border: none;
+    display: none;
+    justify-content: center;
+    flex-direction: column;
+}
+.back:hover{
+    background: rgb(76, 55, 16);
+    color: aquamarine;
+}
+
+#restart:hover{
+    background: rgb(76, 55, 16);
+    color: aquamarine;
+}
+/*.back, #restart {
+    width: 120px; 
+    height: 40px;  
+    border-radius: 5px;
+    transition: background 0.3s, color 0.3s;
+    cursor: pointer;
+    border: none;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
